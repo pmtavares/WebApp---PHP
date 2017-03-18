@@ -1,0 +1,645 @@
+/* Main CSS Responsive Document 
+	Date: 11/2014
+	Author: Pedro Mauricio Tavares
+	ID: D12123176
+	Course: DT249/3
+	Subject: Internet Development Application
+
+
+ 	Responsive Web site
+*/
+
+@media only screen and (min-width: 900px) and (max-width: 1080px)
+{
+	
+	#logo{
+	height:auto;
+	width: 27%;	
+	float: left;
+	margin-left:5px;
+	overflow:hidden;
+	}
+	#logo img{
+	  width: 95%;
+	 
+	
+	}
+	
+	#main_menu{
+	  float: right;
+	  height:auto;
+	  width:600px;
+	  
+ 	}
+ 	#main_menu ul{
+	  padding:3px;
+	  width:580px;
+	  height:auto;
+	  text-align:center;
+	  
+	  
+  }
+  
+  #main_menu ul li{
+	  
+	  width:100px;
+	  height:50px;
+	  margin-left:10px;
+	  
+  }
+  #main_menu a{
+	  font-size: 17px;
+	  width:90%;
+	  margin-left:10px;
+	
+	  
+  }
+ 
+ /* Footer start */ 
+  .footer{
+	 
+	  width:95%;
+	
+	  
+  }
+  
+  #sub_footer1{
+		  
+	  height:auto;
+	  width:100%;
+	 
+	  
+  }
+  .menus_footer{
+	  float:left;
+	  width:20%;
+	  margin-left:15px;
+	  
+  }
+
+  #sub_footer1 li{
+	  font-size:15px;
+	  
+  }
+  
+  
+  #sub_footer2{
+	  width:90%;
+	  font-size:14px;
+  }
+  #sub_footer2 p{
+	  font-size:12px;	
+  }
+  
+  
+  
+  /*index page */
+  #slider{
+	width:90%;	
+		
+	
+  }
+
+
+  #three_subjects{
+		
+	  height:250px;
+	  width:90%;	
+	  
+  }
+
+  .subject_index{
+	  width: 27%;
+	  height:210px;
+	  float:left;	
+	  margin-right: 25px;
+	
+  } 
+  .subject_index h2{
+	  font-size:20px;	
+	  
+  }
+  .subject_index h3{
+	  height:80px;
+	  margin-bottom:10px;
+	  font-size:16px;
+	  
+  }
+  .subject_index a{
+	
+	margin-bottom: 1px;
+	
+		
+	
+	}
+	 /* Media Page */
+	.videos_list{
+		width: 95%;
+		height:auto;
+		
+	}
+	.video_media{
+	  width: 45%;
+	  height:290px;
+	  
+	
+	}
+  	.video_media img{
+	  width:240px;
+	  height:160px;	
+	  
+ 	 }
+	
+}
+
+@media only screen and (min-width: 700px) and (max-width: 899px)
+{
+	#logo{
+	height:auto;
+	width: 500px;	
+	margin-left:25px;
+	
+	}
+		
+	#main_menu{
+	  float: left;
+	  height:auto;
+	  width:580px;
+	  visibility:visible;
+	  padding:0px;
+	  
+ 	}
+ 	#main_menu ul{
+	  width:570px;
+	  height:auto;
+	  text-align:left;
+	  margin:0px;
+	 
+  
+  }
+  
+  #main_menu ul li{
+	  padding:2px 3px 1px 2px;
+	  width:90px;
+	  height:50px;
+	  margin-left:10px;
+	  
+  }
+  #main_menu a{
+	  margin: 1px 1px 1px 1px;
+	  font-size: 16px;
+	  width:90%;
+	  margin-left:2px;
+	  border-radius:5px;
+	  -webkit-border-radius:5px;
+	  -moz-border-radius:5px;
+	  -ms-border-radius:5px;
+	  
+  }
+  
+  /* Footer start */
+    .footer{
+	  height:auto;
+	  width:95%;
+	
+	  
+  }
+  
+  #sub_footer1{
+		  
+	  height:auto;
+	  width:100%;
+	 
+	  
+  }
+  .menus_footer{
+	  float:left;
+	  width:40%;
+	  margin-left:20px;
+	  
+  }
+
+  #sub_footer1 li{
+	  font-size:15px;
+	  
+  }
+  
+  
+  #sub_footer2{
+	  width:90%;
+	  font-size:14px;
+  }
+  #sub_footer2 p{
+	  font-size:12px;	
+  }
+  
+   /*index page */
+  #slider{
+	width:95%;	
+	height: 200px;	
+	
+  }
+
+
+  #three_subjects{
+	  height:auto;
+	  width:90%;	
+	  
+  }
+
+  .subject_index{
+	  width: 90%;
+	  height:200px;
+	  float:left;	
+	  margin-right: 20px;
+	  border-bottom:1px ridge #666;  	 
+  } 
+  .subject_index h2{
+	  font-size:22px;	
+	  
+  }
+  .subject_index h3{
+	  height:70px;
+	  margin-bottom:10px;
+	  font-size:20px;
+	  
+  }
+  .subject_index a{
+	  margin-bottom: 20px;
+	
+	
+  }
+  #video_news{
+	border: none;  
+	  
+  }
+
+  #latest_video{
+	  display:none;	
+	  
+  }
+  .news_side{
+	  border-bottom: 1px ridge #666;
+	  height:auto;
+	  width:70%;
+	  float:left;
+	  margin-top:10px;
+	  
+	  
+	  
+  }
+  
+  .news_side img{
+	  width:120px;
+	  height: 140px;
+	  margin-bottom:80px;
+	  border: 1px solid #999999;	
+	  
+	  
+  }
+  .news_side p{
+	  font-size:14px;
+	  word-wrap:break-word;
+	  
+  }
+  .news_side a{
+	  
+	  font-size: 20px;
+	  
+	  
+  }
+ 
+  /*  About Page */
+  
+   #our_team{
+	  width: 500px;
+	  height:auto;
+	  float: left;
+	  padding-top:15px;
+	  
+	  
+	  
+  }
+  #our_team .pic{
+	margin: 10px 45px 20px 10px;
+	width: 140px;
+	height:140px;
+	
+	
+  }
+  /* Format for the testimonials  */
+  #testimonials{
+	  width: 700px;
+	  height:auto;
+	  
+	  
+	  
+  }
+  .sub_testimonials{
+	  width: 250px;
+	  height:220px;
+	  	  
+  }
+  
+  /* Media Page */
+	.videos_list{
+		width: 95%;
+		height:auto;
+		
+	}
+	.video_media{
+	  width: 45%;
+	  height:290px;
+	  
+	
+	}
+  .video_media img{
+	  width:240px;
+	  height:160px;	
+	  
+  }
+	
+	
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 700px)
+{
+  .header{
+	  height:auto;
+	  width:100%;
+	  background-image:url(../images/universe.png);
+	  background-size:cover;
+	  
+	  
+  }
+  #sub_header1{
+	width:96%;
+	height:auto;
+	
+	}
+  
+
+  #welcome_message{
+	  margin-left:10px;
+	  padding-top:5px;
+	  width:80%;
+	  height:auto;
+	  font-size:20px;	
+	  
+	  
+  }
+  #social_links{
+	  width:70%;
+	  height:auto;
+	  float:left;
+	  	  
+	  
+  }
+  #social_links >table{
+	float:left;
+	margin-right:20px;	
+	
+	
+	}
+  .social_icons a{
+	  
+	  margin-left: 15px;
+	  	  
+  }
+   
+  
+  #sub_header2{
+	  width:97%;
+	  height:auto;
+	  margin-left:10px;
+	  padding-top: 30px;
+	  margin-bottom:10px;	
+	  border: 1px #FFFFFF;
+	  
+	  
+  }
+  
+  #logo{
+	  height:auto;
+	  width: 50%;	
+	  margin-left: 2%;
+	
+	  
+  }
+  #logo img{
+	  height:100px;
+	  width: 100%;
+	  float:left;
+	  
+  }
+
+  
+  #main_menu{
+	  float: left;
+	  height:auto;
+	  width:80%;
+	  display:none;
+	  
+  }
+  #main_menu ul{
+	  padding:0px;
+	  
+  }
+  
+  #main_menu ul li{
+	  text-align:center;
+	  display:inline-block;
+	  width:95%;
+	  height:55px;
+	  
+	  
+  }
+  #main_menu a{
+	  font-size: 25px;
+	  width:90%;
+	  border-radius:5px;
+	  -webkit-border-radius:5px;
+	  -moz-border-radius:5px;
+	  -ms-border-radius:5px;
+	  
+  }
+  #menu_responsive{
+	display:inline;  
+	  
+  }
+/* Footer */
+  .footer{
+	  height:auto;
+	  width:100%;
+	
+	  
+  }
+  
+  #sub_footer1{
+		  
+	  height:auto;
+	  width:100%;
+	 
+	  
+  }
+  .menus_footer{
+	  float:left;
+	  width:40%;
+	  margin-left:20px;
+	  
+  }
+
+  #sub_footer1 li{
+	  font-size:15px;
+	  
+  }
+  
+  
+  #sub_footer2{
+	  height:auto;	
+	  width:90%;
+	  font-size:14px;
+  }
+  #sub_footer2 p{
+	  font-size:12px;	
+  }
+  #slider{
+	width:95%;	
+	height: 200px;
+		
+	
+  }
+
+
+  #three_subjects{
+	  height:auto;
+	  width:90%;	
+	  
+  }
+
+  .subject_index{
+	  width: 90%;
+	  height:200px;
+	  float:left;	
+	  margin-right: 20px;
+	  border-bottom:1px ridge #666;  	 
+  } 
+  .subject_index h2{
+	  font-size:22px;	
+	  
+  }
+  .subject_index h3{
+	  height:70px;
+	  margin-bottom:10px;
+	  font-size:20px;
+	  
+  }
+  .subject_index a{
+	  margin-bottom: 20px;
+	
+	
+  }
+  #video_news{
+	border: none;  
+	  
+  }
+
+  #latest_video{
+	  display:none;	
+	  
+  }
+  .news_side{
+	  border-bottom: 1px ridge #666;
+	  height:auto;
+	  width:45%;
+	  float:left;
+	  margin-top:10px;
+	  clear:both;
+	  
+	  
+	  
+  }
+  
+  .news_side img{
+	  width:120px;
+	  height: 160px;
+	  margin-bottom:80px;
+	  border: 1px solid #999999;	
+	  
+	  
+  }
+  .news_side p{
+	  font-size:14px;
+	  word-wrap:break-word;
+	  
+  }
+  .news_side a{
+	  margin-top:1px;
+	  font-size: 18px;
+	  border: 1px solid;
+	  
+  }
+
+
+	/*  About Page */
+	#our_team{
+	display: none;
+	
+	
+	}
+	
+	
+	
+	/* Articles Page */
+	#article_list{
+	  
+	  width: auto;
+	  height:auto;
+	  
+	  
+	}
+	
+	.articles_list_ind{
+	  width:auto;
+	  height: auto;
+		
+	
+	
+	}
+	.articles_list_ind img{
+	  width: 90%;
+	  height:290px;
+	  
+	}
+	.articles_list_ind >.about_article {
+	  width:90%;
+	  margin-left:5px;
+	  float:left;
+	 
+	}
+	
+	.categories_menu{
+	  width: 250px;
+	 	
+	}
+	
+	/* Media Page */
+	.videos_list{
+		width: 95%;
+		height:auto;
+		
+	}
+	.video_media{
+	  width: 45%;
+	  height:350px;
+	  
+	
+	}
+  .video_media img{
+	  width:95%;
+	  height:160px;	
+	  
+  }
+	
+}
